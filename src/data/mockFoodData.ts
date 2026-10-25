@@ -1,11 +1,14 @@
 import { DonationListing, RecipientShelter, VolunteerMission } from '../types/foodDonation';
-
+import heroImage from '../assets/images/hero_food_rescue_1792904568585.jpg';
+import bakeryImage from '../assets/images/bakery_surplus_crates_1792904567490.jpg';
+import produceImage from '../assets/images/fresh_produce_donation_1792904568502.jpg';
+import preparedImage from '../assets/images/prepared_meals_catering_1792904569161.jpg';
 // Local high-fidelity photography assets generated for this platform
 export const ASSETS = {
-  hero: '/src/assets/images/hero_food_rescue_1792904568585.jpg',
-  bakery: '/src/assets/images/bakery_surplus_crates_1792904567490.jpg',
-  produce: '/src/assets/images/fresh_produce_donation_1792904568502.jpg',
-  prepared: '/src/assets/images/prepared_meals_catering_1792904569161.jpg',
+  hero: heroImage,
+  bakery: bakeryImage,
+  produce: produceImage,
+  prepared: preparedImage,
 };
 
 // Generates dynamic deadlines relative to current time so the countdowns are always alive and realistic
