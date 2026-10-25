@@ -1,0 +1,6 @@
+{
+  "name": "NourishBridge - Food Rescue & Community Donation",
+  "description": "Connecting edible surplus food from food businesses to local shelters and community pantries in real-time.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
